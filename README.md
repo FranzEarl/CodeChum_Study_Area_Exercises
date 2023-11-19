@@ -232,7 +232,7 @@ void main() {
     printf("Result: %.2f", amount * rate);
 }
 
-2. ASCII Art
+2. ASCII Art<br>
 Write a program that reads in a character and prints an ASCII art representation of it. The program should only accept alphanumeric characters (i.e., A-Z, a-z, and 0-9). For each character, the program should print an ASCII art representation in the form of a rectangle, where the width of the rectangle is 5 characters and the height is 7 characters.
 
 #include <stdio.h>
