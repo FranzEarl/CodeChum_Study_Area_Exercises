@@ -1,7 +1,6 @@
 # CodeChum_Study_Area_Exercises
-Programming Course 1 CodeChum Exercises
 
-Lesson 3 Input/Output
+LESSON 3 Input/Output
 
 Topic 1 Output Operations
 
