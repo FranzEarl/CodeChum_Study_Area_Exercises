@@ -5,7 +5,7 @@ Lesson 3 Input/Output
 
 Topic 1 Output Operations
 
-
+*******************************************************************************************************************************************************************************************************************
 1. Hello World<br>
 Write a program that prints the string "Hello, World!" to the console.
 
@@ -15,7 +15,7 @@ void main() {
 
     printf("Hello, World!");
 }
-
+*******************************************************************************************************************************************************************************************************************
 2. Odd or Even<br>
 Write a program that takes an integer as input and prints whether the number is odd or even.
 
@@ -31,7 +31,7 @@ void main() {
     if(n%2 == 0) printf("%d is even.", n);
     else printf("%d is odd.", n);
 }
-
+*******************************************************************************************************************************************************************************************************************
 3. ASCII Art<br>
 Write a program that prints an ASCII art of a chosen character to the console.
 
@@ -55,8 +55,7 @@ void main() {
     printf(" |       |\n");
     printf(" |_______|");
 }
-
-
+*******************************************************************************************************************************************************************************************************************
 4. Multiplication Table<br>
 Write a program that takes an integer as input and prints its multiplication table up to 10.
 
@@ -73,7 +72,7 @@ void main() {
         printf("%d x %d = %d\n", n, i, n * i);
     }
 }
-
+*******************************************************************************************************************************************************************************************************************
 5. Print a Rectangle<br>
 Write a program that takes two integers (width and height) as input and prints a rectangle of asterisks (*) with the given dimensions.
 
@@ -95,7 +94,7 @@ void main() {
         printf("\n");
     }
 }
-
+*******************************************************************************************************************************************************************************************************************
 6. Leap Year<br>
 Write a program that takes a year as input and prints whether it is a leap year or not.
 
@@ -115,7 +114,7 @@ void main() {
         printf("%d is not a leap year.", year);
     }
 }
-
+*******************************************************************************************************************************************************************************************************************
 7. Fahrenheit to Celsius<br>
 Write a program that takes a temperature in Fahrenheit as input and prints its equivalent temperature in Celsius.
 
@@ -132,7 +131,7 @@ void main() {
 
     printf("Temperature in Celsius: %.2f", temp);
 }
-
+*******************************************************************************************************************************************************************************************************************
 8. BMI Calculator<br>
 Write a program that takes a person's weight and height as input and prints their BMI (body mass index).
 
@@ -151,7 +150,7 @@ void main() {
 
     printf("BMI: %.2f", bmi);
 }
-
+*******************************************************************************************************************************************************************************************************************
 9. String Concatenation<br>
 Write a program that takes two strings as input and concatenates them together, printing the resulting string to the console.
 
@@ -173,7 +172,7 @@ void main() {
 
     printf("Concatenated String: %s", strcat(f, s));
 }
-
+*******************************************************************************************************************************************************************************************************************
 10. Diamond Pattern<br>
 Write a program that takes an integer as input and prints a diamond pattern of asterisks (*) with the given dimensions.
 
@@ -205,6 +204,7 @@ void main() {
             printf("\n");
         }
 }
+*******************************************************************************************************************************************************************************************************************
 
 
 
