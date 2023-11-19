@@ -212,12 +212,49 @@ void main() {
         }
 }
 
+Topic 2 Input Operations
 
 
+1. Currency Converter<br>
+Write a program that reads in an amount in USD and converts it to another currency based on the current exchange rate.
 
+#include <stdio.h>
 
+void main() {
 
+    float amount, rate;
 
+    printf("Enter amount in USD: ");
+    scanf("%f", &amount);
+    printf("Enter exchange rate: ");
+    scanf("%f", &rate);
+
+    printf("Result: %.2f", amount * rate);
+}
+
+2. ASCII Art
+Write a program that reads in a character and prints an ASCII art representation of it. The program should only accept alphanumeric characters (i.e., A-Z, a-z, and 0-9). For each character, the program should print an ASCII art representation in the form of a rectangle, where the width of the rectangle is 5 characters and the height is 7 characters.
+
+#include <stdio.h>
+
+void main() {
+
+    char c;
+
+    printf("Enter a character: ");
+    scanf(" %c", &c);
+
+    if((c >= '0' && c <= '9') || (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z')) {
+        printf("*****\n");
+        printf("*   *\n");
+        printf("* %c *\n", c);
+        printf("*   *\n");
+        printf("*****");
+    }
+    else {
+        printf("Invalid input.");
+    }
+}
 
 
 
