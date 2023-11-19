@@ -4,7 +4,9 @@ Programming Course 1 CodeChum Exercises
 Lesson 3 Input/Output
 
 Topic 1 Output Operations
-1. Hello World
+
+
+1. Hello World<br>
 Write a program that prints the string "Hello, World!" to the console.
 
 #include <stdio.h>
@@ -14,7 +16,7 @@ void main() {
     printf("Hello, World!");
 }
 
-2. Odd or Even
+2. Odd or Even<br>
 Write a program that takes an integer as input and prints whether the number is odd or even.
 
 #include <stdio.h>
@@ -30,7 +32,7 @@ void main() {
     else printf("%d is odd.", n);
 }
 
-3. ASCII Art
+3. ASCII Art<br>
 Write a program that prints an ASCII art of a chosen character to the console.
 
 #include <stdio.h>
@@ -55,7 +57,7 @@ void main() {
 }
 
 
-4. Multiplication Table
+4. Multiplication Table<br>
 Write a program that takes an integer as input and prints its multiplication table up to 10.
 
 #include <stdio.h>
@@ -72,7 +74,7 @@ void main() {
     }
 }
 
-5. Print a Rectangle
+5. Print a Rectangle<br>
 Write a program that takes two integers (width and height) as input and prints a rectangle of asterisks (*) with the given dimensions.
 
 #include <stdio.h>
@@ -94,7 +96,7 @@ void main() {
     }
 }
 
-6. Leap Year
+6. Leap Year<br>
 Write a program that takes a year as input and prints whether it is a leap year or not.
 
 #include <stdio.h>
@@ -114,7 +116,7 @@ void main() {
     }
 }
 
-7. Fahrenheit to Celsius
+7. Fahrenheit to Celsius<br>
 Write a program that takes a temperature in Fahrenheit as input and prints its equivalent temperature in Celsius.
 
 #include <stdio.h>
@@ -131,7 +133,7 @@ void main() {
     printf("Temperature in Celsius: %.2f", temp);
 }
 
-8. BMI Calculator
+8. BMI Calculator<br>
 Write a program that takes a person's weight and height as input and prints their BMI (body mass index).
 
 #include <stdio.h>
@@ -150,7 +152,7 @@ void main() {
     printf("BMI: %.2f", bmi);
 }
 
-9. String Concatenation
+9. String Concatenation<br>
 Write a program that takes two strings as input and concatenates them together, printing the resulting string to the console.
 
 #include <stdio.h>
@@ -172,7 +174,7 @@ void main() {
     printf("Concatenated String: %s", strcat(f, s));
 }
 
-10. Diamond Pattern
+10. Diamond Pattern<br>
 Write a program that takes an integer as input and prints a diamond pattern of asterisks (*) with the given dimensions.
 
 #include <stdio.h>
