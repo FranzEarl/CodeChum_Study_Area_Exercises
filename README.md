@@ -257,16 +257,206 @@ void main() {
 }
 
 
+LESSON 4 Operators
+
+Topic 1 Arithmetic Operators
+
+1. Sum of Two Numbers<br>
+Write a program that takes two integers as input and returns their sum.
+
+#include <stdio.h>
+
+void main() {
+
+    int a, b;
+
+    printf("Enter value a: ");
+    scanf("%d", &a);
+    printf("Enter value b: ");
+    scanf("%d", &b);
+
+    printf("The sum of %d and %d is %d", a, b, a + b);   
+}
 
 
+2. Difference of Two Numbers<br>
+Write a program that takes two integers as input and returns their difference.
+
+#include <stdio.h>
+
+void main() {
+
+    int a, b;
+
+    printf("Enter value a: ");
+    scanf("%d", &a);
+    printf("Enter value b: ");
+    scanf("%d", &b);
+
+    printf("The difference of %d and %d is %d", a, b, a - b);   
+}
 
 
+3. Product of Two Numbers<br>
+Write a program that takes two integers as input and returns their product.
+
+#include <stdio.h>
+
+void main() {
+
+    int a, b;
+
+    printf("Enter value a: ");
+    scanf("%d", &a);
+    printf("Enter value b: ");
+    scanf("%d", &b);
+
+    printf("Product of %d and %d is %d", a, b, a * b);   
+}
 
 
+4. Quotient of Two Numbers<br>
+Write a program that takes two integers as input and returns their quotient. If the divisor is zero, return an error message.
+
+#include <stdio.h>
+
+void main() {
+
+    int a, b;
+
+    printf("Enter dividend: ");
+    scanf("%d", &a);
+    printf("Enter divisor: ");
+    scanf("%d", &b);
+
+    if(b == 0) {
+        printf("Error: divisor cannot be zero");
+    }
+    else {
+        printf("Quotient = %d", a / b);
+    }
+}
 
 
+5. Remainder of Two Numbers<br>
+Write a program that takes two integers as input and returns their remainder. If the divisor is zero, return an error message.
+
+#include <stdio.h>
+
+void main() {
+
+    int a, b;
+
+    printf("Enter dividend: ");
+    scanf("%d", &a);
+    printf("Enter divisor: ");
+    scanf("%d", &b);
+
+    if(b == 0) {
+        printf("Error: divisor cannot be zero.");
+    }
+    else {
+        printf("Remainder = %d", a % b);
+    }
+}
 
 
+6. Absolute Value<br>
+Write a program that takes an integer as input and returns its absolute value.
+
+#include <stdio.h>
+
+void main() {
+
+    int a;
+
+    printf("Enter an integer: ");
+    scanf("%d", &a);
+    
+    if(a < 0) {
+        a *= -1;
+        printf("The absolute value of -%d is %d", a, a);
+    }
+    else {
+        printf("The absolute value of %d is %d", a, a);
+    }
+}
+
+
+7. Power of a Number<br>
+Write a program that takes two integers as input and returns the first number raised to the power of the second number.
+
+#include <stdio.h>
+
+void main() {
+
+    int a, b, c;
+
+    printf("Enter base number: ");
+    scanf("%d", &a);
+    printf("Enter exponent number: ");
+    scanf("%d", &b);
+
+    c = a;
+
+    for(int i = 0; i < b - 1; i++) {
+        a *= c;
+    }
+    
+    printf("Result: %d", a);
+}
+
+
+8. Average of Three Numbers<br>
+Write a program that takes three integers as input and returns their average.
+
+#include <stdio.h>
+
+void main() {
+
+    float a, b, c;
+
+    printf("Enter three numbers: ");
+    scanf("%f %f %f", &a, &b, & c);
+
+    printf("Average of the three numbers: %.2f", (a + b + c) / 3);
+}
+
+
+9. Increment a Number<br>
+Write a program that takes an integer as input and increments it by 1.
+
+#include <stdio.h>
+
+void main() {
+
+    int a;
+
+    printf("Enter an integer: ");
+    scanf("%d", &a);
+
+    a++;
+    
+    printf("Result: %d", a);
+}
+
+
+10. Decrement a Number<br>
+Write a program that takes an integer as input and decrements it by 1.
+
+#include <stdio.h>
+
+void main() {
+
+    int a;
+
+    printf("Enter an integer: ");
+    scanf("%d", &a);
+
+    a--;
+    
+    printf("The decremented value is: %d", a);
+}
 
 
 
