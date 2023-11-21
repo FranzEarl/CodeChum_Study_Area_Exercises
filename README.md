@@ -459,5 +459,236 @@ void main() {
 }
 
 
+Topic 2 Assignment Operators
+
+1. Swap Two Numbers<br>
+Write a program that swaps the values of two variables using the assignment operator.
+
+#include <stdio.h>
+
+void main() {
+
+    int a, b, c;
+    
+    printf("Enter value a: ");
+    scanf("%d", &a);
+    printf("Enter value b: ");
+    scanf("%d", &b);
+    
+    printf("Before swap a = %d, b = %d\n", a, b);
+
+    c = a;
+    a = b;
+    b = c;
+    
+    printf("After swap a = %d, b = %d", a, b);
+}
+
+
+2. Increment and Assign<br>
+Write a program that increments a variable by a certain amount using the += operator.
+
+#include <stdio.h>
+
+void main() {
+
+    int a, b;
+    
+    printf("Enter value: ");
+    scanf("%d", &a);
+    printf("Enter increment value: ");
+    scanf("%d", &b);
+    
+    printf("Before increment a = %d\n", a);
+
+    a += b;
+    
+    printf("After increment a = %d", a);
+}
+
+
+3. Decrement and Assign<br>
+Write a program that decrements a variable by a certain amount using the -= operator.
+
+#include <stdio.h>
+
+void main() {
+
+    int a, b;
+    
+    printf("Enter value: ");
+    scanf("%d", &a);
+    printf("Enter decrement value: ");
+    scanf("%d", &b);
+    
+    printf("Before decrement a = %d\n", a);
+
+    a -= b;
+    
+    printf("After decrement a = %d", a);
+}
+
+
+4. Multiply and Assign<br>
+Write a program that multiplies a variable by a certain amount using the *= operator.
+
+#include <stdio.h>
+
+void main() {
+
+    int a, b;
+    
+    printf("Enter value a: ");
+    scanf("%d", &a);
+    printf("Enter value b: ");
+    scanf("%d", &b);
+    
+    printf("Before multiplication a = %d\n", a);
+
+    a *= b;
+    
+    printf("After multiplication a = %d", a);
+}
+
+
+5. Divide and Assign<br>
+Write a program that divides a variable by a certain amount using the /= operator.
+
+#include <stdio.h>
+
+void main() {
+
+    int a, b;
+    
+    printf("Enter value a: ");
+    scanf("%d", &a);
+    printf("Enter value b: ");
+    scanf("%d", &b);
+    
+    printf("Before division a = %d\n", a);
+
+    a /= b;
+    
+    printf("After division a = %d", a);
+}
+
+
+6. Modulo and Assign<br>
+Write a program that finds the remainder of a variable divided by a certain amount using the %= operator.
+
+#include <stdio.h>
+
+void main() {
+
+    int a, b;
+    
+    printf("Enter value a: ");
+    scanf("%d", &a);
+    printf("Enter value b: ");
+    scanf("%d", &b);
+    
+    printf("Before modulo a = %d\n", a);
+
+    a %= b;
+    
+    printf("After modulo a = %d", a);
+}
+
+
+7. Bitwise AND and Assign<br>
+Write a program that performs a bitwise AND operation on a variable and a certain number using the &= operator.
+
+#include <stdio.h>
+
+void main() {
+
+    int a, b;
+
+    printf("Enter value a: ");
+    scanf("%d", &a);
+    printf("Enter value b: ");
+    scanf("%d", &b);
+    
+    printf("Before bitwise AND and assign operation, a = %d\n", a);
+
+    a &= b;
+
+    printf("After bitwise AND and assign operation, a = %d\n", a);
+}
+
+
+8. Bitwise OR and Assign<br>
+Write a program that performs a bitwise OR operation on a variable and a certain number using the |= operator.
+
+#include <stdio.h>
+
+void main() {
+
+    int a, b;
+    
+    printf("Enter value a: ");
+    scanf("%d", &a);
+    printf("Enter value b: ");
+    scanf("%d", &b);
+    
+    printf("Before OR, a = %d\n", a);
+
+    a |= b;
+    
+    printf("After OR, a = %d", a);
+}
+
+
+9. Bitwise XOR and Assign<br>
+Write a program that performs a bitwise XOR operation on a variable and a certain number using the ^= operator.
+
+#include <stdio.h>
+
+void main() {
+
+    int a, b;
+    
+    printf("Enter value a: ");
+    scanf("%d", &a);
+    printf("Enter value b: ");
+    scanf("%d", &b);
+
+    a ^= b;
+    
+    printf("Result: %d", a);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
