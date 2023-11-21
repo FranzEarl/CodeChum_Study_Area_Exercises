@@ -1,7 +1,7 @@
 # CodeChum_Study_Area_Exercises
 
 LESSON 3 Input/Output
-<br><br>
+
 Topic 1 Output Operations
 
 1. Hello World<br>
@@ -211,9 +211,9 @@ void main() {
             printf("\n");
         }
 }
-<br><br><br><br>
-Topic 2 Input Operations
 
+_____________________________________________________________________________________________________________________
+Topic 2 Input Operations
 
 1. Currency Converter<br>
 Write a program that reads in an amount in USD and converts it to another currency based on the current exchange rate.
