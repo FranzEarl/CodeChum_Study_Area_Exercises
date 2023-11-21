@@ -659,36 +659,181 @@ void main() {
 }
 
 
+Topic 3 Bitwise Operators
+
+1. Bitwise AND<br>
+Write a program that takes two integers as input and performs a bitwise AND operation on them.
+
+#include <stdio.h>
+
+void main() {
+
+    int a, b;
+    
+    printf("Enter value a: ");
+    scanf("%d", &a);
+    printf("Enter value b: ");
+    scanf("%d", &b);
+    
+    printf("The result of the bitwise AND operation is: %d", a & b);
+}
 
 
+2. Bitwise OR<br>
+Write a program that takes two integers as input and performs a bitwise OR operation on them.
+
+#include <stdio.h>
+
+void main() {
+
+    int a, b;
+    
+    printf("Enter value a: ");
+    scanf("%d", &a);
+    printf("Enter value b: ");
+    scanf("%d", &b);
+    
+    printf("Bitwise OR result: %d", a | b);
+}
 
 
+3. Bitwise NOT<br>
+Write a program that takes an integer as input and performs a bitwise NOT operation on it.
+
+#include <stdio.h>
+
+void main() {
+
+    int a;
+    
+    printf("Enter a number: ");
+    scanf("%d", &a);
+    
+    printf("Bitwise NOT of %d is %d", a, ~a);
+}
 
 
+4. Left Shift<br>
+Write a program that takes two integers as input and performs a left shift operation on the first integer by the number of bits specified by the second integer.
+
+#include <stdio.h>
+
+void main() {
+    
+    int a, b;
+    
+    printf("Enter value a: ");
+    scanf("%d", &a);
+    printf("Enter value b: ");
+    scanf("%d", &b);
+
+    printf("%d", a << b);
+}
 
 
+5. Right Shift<br>
+Write a program that takes two integers as input and performs a right shift operation on the first integer by the number of bits specified by the second integer.
+
+#include <stdio.h>
+
+void main() {
+
+    int a, b;
+    
+    printf("Enter value a: ");
+    scanf("%d", &a);
+    printf("Enter value b: ");
+    scanf("%d", &b);
+    
+    printf("%d", a >> b);
+}
 
 
+6. Check if a Bit is Set<br>
+Write a program that takes an integer and a bit position as input and checks if the bit at the given position is not zero.
+
+#include <stdio.h>
+
+void main() {
+
+    int num, pos;
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+    printf("Enter the bit position: ");
+    scanf("%d", &pos);
+    
+    if((num & (1 << pos)) != 0) {
+        printf("Yes");
+    } 
+    else {
+        printf("No");
+    }
+}
 
 
+7. Set a Bit<br>
+Write a program that takes an integer and a bit position as input and sets the bit at the given position.
+
+#include <stdio.h>
+
+void setBit(int *num, int position) {
+
+    int mask = 1 << position;
+    *num = *num | mask;
+}
+
+void main() {
+
+    int num, position;
+    printf("Enter value: ");
+    scanf("%d", &num);
+    printf("Enter bit position: ");
+    scanf("%d", &position);
+
+    setBit(&num, position);
+
+    printf("The new value is: %d\n", num);
+}
 
 
+8. Clear a Bit<br>
+Write a program that takes an integer and a bit position as input and clears the bit at the given position.
+
+#include <stdio.h>
+
+void main() {
+
+    int num, pos;
+    
+    printf("Enter value of num: ");
+    scanf("%d", &num);
+    printf("Enter bit position to clear: ");
+    scanf("%d", &pos);
+    
+    int mask = ~(1 << pos);
+    num = num & mask;
+    
+    printf("Result: %d\n", num);
+}
 
 
+9. Toggle a Bit
+Write a program that takes an integer and a bit position as input and toggles the bit at the given position.
 
+#include <stdio.h>
 
+void main() {
 
-
-
-
-
-
-
-
-
-
-
-
+    int num, pos;
+    
+    printf("Enter value of num: ");
+    scanf("%d", &num);
+    printf("Enter bit position to toggle (0-indexed): ");
+    scanf("%d", &pos);
+    
+    num = num ^ (1 << pos);
+    printf("Result: %d", num);
+}
 
 
 
