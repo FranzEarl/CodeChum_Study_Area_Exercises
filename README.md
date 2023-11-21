@@ -1,7 +1,7 @@
 # CodeChum_Study_Area_Exercises
 
 LESSON 3 Input/Output
-
+<br><br>
 Topic 1 Output Operations
 
 1. Hello World<br>
@@ -211,7 +211,7 @@ void main() {
             printf("\n");
         }
 }
-
+<br><br><br><br>
 Topic 2 Input Operations
 
 
@@ -256,9 +256,9 @@ void main() {
     }
 }
 
-
+<br><br><br><br>
 LESSON 4 Operators
-
+<br><br>
 Topic 1 Arithmetic Operators
 
 1. Sum of Two Numbers<br>
@@ -458,7 +458,7 @@ void main() {
     printf("The decremented value is: %d", a);
 }
 
-
+<br><br><br><br>
 Topic 2 Assignment Operators
 
 1. Swap Two Numbers<br>
@@ -658,7 +658,7 @@ void main() {
     printf("Result: %d", a);
 }
 
-
+<br><br><br><br>
 Topic 3 Bitwise Operators
 
 1. Bitwise AND<br>
@@ -817,7 +817,7 @@ void main() {
 }
 
 
-9. Toggle a Bit
+9. Toggle a Bit<br>
 Write a program that takes an integer and a bit position as input and toggles the bit at the given position.
 
 #include <stdio.h>
@@ -834,6 +834,37 @@ void main() {
     num = num ^ (1 << pos);
     printf("Result: %d", num);
 }
+
+<br><br><br><br>
+
+LESSON 5 Strings
+<br><br>
+Topic 1 String Handling
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
